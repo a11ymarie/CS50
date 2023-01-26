@@ -33,13 +33,6 @@ int main(void)
     //printf("%f\n", S);
 
 
-/** this didn't work, and I'm still trying to figure out why..
-    float L = 100 * (letters / words);
-    printf("\n%f\n", L);
-    float S = 100 * (sentences / words);
-    printf("%f\n", S);
-**/
-
 
     //User coleman-liau index - index = 0.0588 * L - 0.296 * S - 15.8
 
