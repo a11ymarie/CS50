@@ -25,14 +25,21 @@ int main(void)
     //return text
 
     //int grade = 0;
-
+    
     // take average letters/sentences per 100 words
-    float L = (100 / ((float) words) * (float) letters);
+     float L = 100 * ((float) letters / (float)words);
     //printf("\n%f\n", L); //to test what the calculation comes back with
-    float S = (100 / ((float) words) * (float) sentences);
+    float S = 100 * ((float) sentences / (float)words);
     //printf("%f\n", S);
 
-
+    
+    
+    //an alternative way to solve 
+    //float L = (100 / ((float) words) * (float) letters);
+    //printf("\n%f\n", L); //to test what the calculation comes back with
+    //float S = (100 / ((float) words) * (float) sentences);
+    //printf("%f\n", S);
+    
 
     //User coleman-liau index - index = 0.0588 * L - 0.296 * S - 15.8
 
